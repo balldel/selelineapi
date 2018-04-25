@@ -85,3 +85,41 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-6769901, line
 1524554695086	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox54\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ball_\\AppData\\Local\\Temp\\rust_mozprofile.eHZyQRv4tKMd"
 1524554696643	Marionette	INFO	Listening on port 53211
 1524554697115	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524640522705	geckodriver	INFO	geckodriver 0.19.1
+1524640522715	geckodriver	INFO	Listening on 127.0.0.1:60137
+1524640525807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox54\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ball_\\AppData\\Local\\Temp\\rust_mozprofile.aB1mlYBSbFsQ"
+1524640528054	Marionette	INFO	Listening on port 60145
+1524640528940	Marionette	WARN	TLS certificate errors will be ignored for this session
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1524641544438	Marionette	INFO	Ceased listening
+1524641595405	geckodriver	INFO	geckodriver 0.19.1
+1524641595411	geckodriver	INFO	Listening on 127.0.0.1:60504
+1524641598495	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox54\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ball_\\AppData\\Local\\Temp\\rust_mozprofile.CCtuUz6s4TJd"
+1524641600402	Marionette	INFO	Listening on port 60512
+1524641600524	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: resource://gre/components/nsUrlClassifierListManager.js, line 287: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1524641613579	Marionette	INFO	Ceased listening
+1524641615499	geckodriver::marionette	ERROR	Failed to kill browser process
+1524641629322	geckodriver	INFO	geckodriver 0.19.1
+1524641629328	geckodriver	INFO	Listening on 127.0.0.1:60694
+1524641632391	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox54\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ball_\\AppData\\Local\\Temp\\rust_mozprofile.qDnWDWip8xro"
+1524641634020	Marionette	INFO	Listening on port 60702
+1524641634403	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524641647416	geckodriver	INFO	geckodriver 0.19.1
+1524641647422	geckodriver	INFO	Listening on 127.0.0.1:60895
+1524641650465	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox54\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ball_\\AppData\\Local\\Temp\\rust_mozprofile.YOYr1QHtK1fz"
+1524641652176	Marionette	INFO	Listening on port 60909
+1524641652490	Marionette	WARN	TLS certificate errors will be ignored for this session
+1524641682285	geckodriver	INFO	geckodriver 0.19.1
+1524641682292	geckodriver	INFO	Listening on 127.0.0.1:61102
+1524641685348	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox54\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ball_\\AppData\\Local\\Temp\\rust_mozprofile.NCv9E0bgNndV"
+1524641687239	Marionette	INFO	Listening on port 61111
+1524641687364	Marionette	WARN	TLS certificate errors will be ignored for this session

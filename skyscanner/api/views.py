@@ -5,6 +5,8 @@ from rest_framework.views import APIView
 
 from pyvirtualdisplay import Display
 
+from multiprocessing.dummy import Pool
+
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.common.by import By
@@ -19,6 +21,7 @@ import time
 
 line_bot_api = LineBotApi('fSDjokoamI2lnlDZE8GJ2+PoZBn8DHsDba8zCtW57zR++3X+Iiy5jwtMQFB1oynrcHd3pU4g5S3IikMXzTmCkPueLieW/ilvst42POA6I6cyt/+z3u13OPxjof+Jq12l046ITxA2+sSMC95uRwEdHQdB04t89/1O/w1cDnyilFU=')
 handler = WebhookHandler('a3e92910d347b8dcda29a8bfaba8e3bc')
+pool = Pool(3)
 
 class Bot(APIView):
     def post(self, request):
