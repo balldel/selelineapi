@@ -50,12 +50,14 @@ class Country(APIView):
         countrycode = data.query_params.get('country')
 
         ''' for Ubuntu SERVER '''
-        # cap = DesiredCapabilities().FIREFOX
-        # display = Display(visible=0, size=(1024, 768)).start()
-        # driver = webdriver.Firefox(capabilities=cap, executable_path='/home/ubuntu/anaconda3/bin/geckodriver')
+        cap = DesiredCapabilities().FIREFOX
+        display = Display(visible=0, size=(1024, 768)).start()
+        driver = webdriver.Firefox(capabilities=cap, executable_path='/home/ubuntu/anaconda3/bin/geckodriver')
+        driver.implicitly_wait(30) # seconds
+        actions = webdriver.ActionChains(driver)
         
         ''' for Window & MAC Client '''
-        driver = webdriver.Firefox()
+        # driver = webdriver.Firefox()
         # countrycode = 'ch'
 
         print(countrycode)
@@ -67,6 +69,7 @@ class Country(APIView):
         print(urlMain)
         driver.get(urlMain)
         time.sleep(10)
+        driver.save_screenshot('screenie.png')
         # print("OK")
         # try:
         province = driver.find_elements(By.CLASS_NAME, 'with-image')[0]
@@ -92,7 +95,8 @@ class Country(APIView):
         #     print('No DATA')
         #     pass
         
-        driver.close()   
+        driver.close()
+        display.stop()   
         print(datadict)
         return Response(datadict)
 
